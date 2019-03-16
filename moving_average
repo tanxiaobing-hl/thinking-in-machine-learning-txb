@@ -1,0 +1,15 @@
+Moving Average model
+
+1. how about leverage the moving average model on time series tasks? 
+   Of course we know, there are window moving average in time series. 
+   But now, we are talking about moving average model which is from 《TensorFlow: 实战Google深度学习框架》。
+  
+  
+  
+  
+  
+  
+  
+Reference
+1. https://baike.baidu.com/item/%E7%A7%BB%E5%8A%A8%E5%B9%B3%E5%9D%87%E6%B3%95/10785547 
+2. 郑泽宇，顾思宇 《TensorFlow: 实战Google深度学习框架》 4.4.3 P90
