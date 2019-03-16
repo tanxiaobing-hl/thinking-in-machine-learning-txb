@@ -2,4 +2,10 @@
   1. 直接以顶点的特征向量表达（来源于图的特征矩阵）
   2. 顶点自身特征 + 邻接顶点特征 来表达（如： GAT, Graph Attention Network）
   3. 顶点为中心的子图来表达 ？ 启发来源于（DGI, Deep Graph Infomax）
+     3.1 这一点也就是DGI论文中所谓的 patch representation:
+     "A key consequence is that the produced node embeddings, hi, 
+     summarize a  patch of the graph centered around node i rather than just the node itself."
+     总结（抽取）以顶点i为中心的一系列patch（子图）的总体特征。
+     3.2 局部－全局互信息最大化 Local-Global mutual information maximization
+     
   
